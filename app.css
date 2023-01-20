@@ -1,0 +1,17 @@
+body {
+  background-color: rebeccapurple;
+}
+
+p {
+  background-color: rgb(116, 178, 34);
+}
+
+p:nth-child(2) {
+  color: rgb(117, 0, 128);
+  font-size: 20px;
+}
+
+p:nth-child(2):hover {
+  background-color: #fff;
+  color: rgb(7, 50, 63);
+}

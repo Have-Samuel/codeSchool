@@ -29,6 +29,8 @@ a {
 
 h3 {
   text-transform: capitalize;
-  text-shadow: 5px 5px 5px magenta;
+  color: hsla(0, 100%, 50%, 0.9);
+  text-shadow: 5px 5px hsla(180, 100%, 50%, 0.5), 3px 3px hsla(60, 100%, 50%, 0.5);
+  /* text-shadow: 5px 5px 5px magenta; */
   font-size: 50px;
 }

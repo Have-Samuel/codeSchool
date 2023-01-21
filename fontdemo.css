@@ -9,6 +9,7 @@ h1 {
   font-size: 6rem;
   font-family: 'Nosifer', cursive;
   text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
 section {
@@ -24,4 +25,10 @@ h2 {
 
 a {
   text-decoration: none;
+}
+
+h3 {
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px magenta;
+  font-size: 50px;
 }

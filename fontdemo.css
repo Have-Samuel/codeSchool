@@ -18,6 +18,7 @@ section {
 
 h2 {
   font-size: 3rem;
+  text-decoration: red overline dotted;
   /* font-family: 'Nosifer', cursive; */
 }
 

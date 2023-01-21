@@ -24,10 +24,11 @@ h1 {
   font-weight: 100;
   color: hsla(434, 95%, 57%, 0.9);
   letter-spacing: 10px;
+  font-size: 5vw;
 }
 
-p {
+/* p {
   font-weight: bold;
   line-height: 2;
   word-spacing: 8px;
-}
+} */

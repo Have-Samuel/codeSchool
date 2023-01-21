@@ -15,9 +15,19 @@ li:nth-of-type(2n):hover {
 } */
 
 body {
-  background-color: rgb(248, 184, 240);
+  background-color: #28ffbe;
 }
 
 h1 {
-  background-color: rgba(255, 290, 210, 0.2);
+  background-color: hsl(254, 95%, 57%);
+  text-align: center;
+  font-weight: 100;
+  color: hsla(434, 95%, 57%, 0.9);
+  letter-spacing: 10px;
+}
+
+p {
+  font-weight: bold;
+  line-height: 2;
+  word-spacing: 8px;
 }

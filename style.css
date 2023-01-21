@@ -2,6 +2,12 @@
 
 body {
   background-color: #d0cfcf;
+  font-size: 16px;
+}
+
+h1 {
+  text-shadow: 1px 1px 2px red, 0 0 0.2em yellow, 0 0 0.2em blue;
+  font-size: 9rem;
 }
 
 p {
@@ -14,4 +20,8 @@ a {
 
 h2 {
   text-transform: capitalize;
+}
+
+section {
+  font-size: 1.5em;
 }

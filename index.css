@@ -47,6 +47,11 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  color: orangered;
+  background-color: #000;
+}
+
 p {
   width: 50%;
   min-width: 50%;
@@ -68,6 +73,7 @@ p {
 
 #container .item:hover {
   border: 10px solid teal;
+  outline: 10px solid mistyrose;
 }
 
 #container .item:nth-last-of-type(2) {

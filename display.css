@@ -6,12 +6,16 @@ h1 {
   display: inline;
 }
 
-a {
+/* a {
   background-color: pink;
   height: 300px;
   width: 300px;
   display: block;
   margin: 1rem;
+} */
+
+body {
+  margin: 0;
 }
 
 #container {
@@ -26,4 +30,16 @@ a {
   display: inline-block;
   width: 50%;
   border: 1px solid teal;
+}
+
+nav {
+  background-color: #eee;
+  display: flex;
+  justify-content: space-around;
+  height: 4rem;
+  align-items: center;
+}
+
+nav a {
+  font-size: 1.2em;
 }

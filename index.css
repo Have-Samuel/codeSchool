@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url('https://img.freepik.com/free-photo/grunge-paint-background_1409-1337.jpg?w=2000');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #box {
   width: 200px;
   height: 200px;
@@ -52,11 +58,6 @@ button:hover {
   background-color: #000;
 }
 
-p {
-  width: 50%;
-  min-width: 50%;
-}
-
 #container {
   border: 2px solid black;
   width: 400px;
@@ -89,4 +90,12 @@ p a {
   color: mistyrose;
   cursor: pointer;
   font-size: 18px;
+}
+
+p {
+  font-size: 1.5em;
+  background-image: url('https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=740&t=st=1674504582~exp=1674505182~hmac=0690c878991735a05a57c8dade1148031e7d6f919b67da68eaf020e1e82b3ce4');
+  color: mistyrose;
+  width: 50%;
+  min-width: 50%;
 }

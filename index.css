@@ -12,6 +12,7 @@ img {
   width: 40%;
   border: 10px solid #c71585;
   border-left-width: 5px;
+  border-radius: 30%;
 }
 
 h1 {
@@ -44,4 +45,20 @@ button {
 p {
   width: 50%;
   min-width: 50%;
+}
+
+#container {
+  border: 2px solid black;
+  width: 400px;
+}
+
+#container .item {
+  height: 100px;
+  border: 1px solid orangered;
+  /* padding: 1rem; */
+  margin: 1rem;
+}
+
+#container .item:nth-last-of-type(2) {
+  margin-left: 3rem;
 }

@@ -21,6 +21,7 @@ h1 {
   font-size: 100px;
   width: 50%;
   border-bottom: 10px solid #c71585;
+  margin: 1rem auto;
 }
 
 h2 {
@@ -51,6 +52,7 @@ p {
 #container {
   border: 2px solid black;
   width: 400px;
+  margin: 0 auto;
 }
 
 #container .item {

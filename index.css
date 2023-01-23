@@ -1,0 +1,11 @@
+h1 {
+  box-sizing: content-box;
+  width: 100px;
+  padding: 1em;
+  border: solid 5px black;
+}
+
+h1:hover {
+  outline: solid 5px red;
+  outline-offset: 5px;
+}

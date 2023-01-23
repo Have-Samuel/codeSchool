@@ -9,6 +9,13 @@ h1:hover {
   outline: solid 5px red;
   outline-offset: 5px;
 } */
+#box {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border-radius: 50%;
+  border: 5px solid teal;
+}
 
 img {
   max-width: 300px;

@@ -1,14 +1,4 @@
-/* h1 {
-  box-sizing: content-box;
-  width: 100px;
-  padding: 1em;
-  border: solid 5px black;
-}
 
-h1:hover {
-  outline: solid 5px red;
-  outline-offset: 5px;
-} */
 #box {
   width: 200px;
   height: 200px;
@@ -34,6 +24,21 @@ h1 {
 h2 {
   background-color: lightpink;
   width: 50%;
+}
+
+section {
+  width: 300px;
+  border: 2px solid black;
+  padding: 1rem;
+}
+
+button {
+  background-color: orangered;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
 }
 
 p {

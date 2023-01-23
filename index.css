@@ -62,3 +62,13 @@ p {
 #container .item:nth-last-of-type(2) {
   margin-left: 3rem;
 }
+
+p a {
+  background-color: magenta;
+  padding: 0.4rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: mistyrose;
+  cursor: pointer;
+  font-size: 18px;
+}

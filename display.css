@@ -1,10 +1,10 @@
-h1 {
+/* h1 {
   background-color: teal;
   width: 50%;
   height: 300px;
   margin: 2em;
   display: inline;
-}
+} */
 
 /* a {
   background-color: pink;
@@ -13,12 +13,12 @@ h1 {
   display: block;
   margin: 1rem;
 } */
-
+/* 
 body {
   margin: 0;
-}
+} */
 
-#container {
+/* #container {
   border: 1px solid black;
   width: 50%;
   margin: 0 auto;
@@ -42,4 +42,12 @@ nav {
 
 nav a {
   font-size: 1.2em;
+} */
+
+h1 {
+  position: relative;
+  top: 100px;
+  background-color: lightgreen;
+  width: 25%;
 }
+

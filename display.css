@@ -8,13 +8,30 @@ h1 {
 
 div {
   width: 50%;
-  border: 1px solid red;
-  height: 500px;
+  /* border: 1px solid red; */
+  height: 200px;
   margin: 0 auto;
   /* position: relative; */
   top: 100px;
 }
 
-/* img {
+nav {
+  background-color: rgb(0, 217, 255);
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  align-items: center;
+  z-index: 10;
+}
 
-} */
+nav a {
+  margin-left: 4rem;
+  color: black;
+  text-decoration: none;
+  font-size: 3em;
+}

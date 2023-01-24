@@ -40,7 +40,7 @@ p {
   font-size: 20px;
 }
 
-body {
+/* body {
   background-color: darkgrey;
 }
 
@@ -51,5 +51,27 @@ body {
 
   nav {
     background-color: teal;
+  }
+} */
+
+.essay {
+  width: 50%;
+  margin: 0 auto;
+  background-color: brown;
+}
+
+@media (min-width: 800px) {
+  .essay {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(142, 165, 42);
+  }
+}
+
+@media (min-width: 1000px) {
+  .essay {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(42, 106, 165);
   }
 }

@@ -47,7 +47,7 @@ nav a {
 h1 {
   position: relative;
   top: 100px;
+  left: 100px;
   background-color: lightgreen;
   width: 25%;
 }
-

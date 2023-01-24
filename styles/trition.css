@@ -1,11 +1,17 @@
 h1 {
   font-size: 2em;
   color: blue;
-  transition: font-size 1s;
+  transition: font-size 1s, color 4s;
 }
 
 h1:hover {
   font-size: 4em;
   color: #f700ff;
   cursor: pointer;
+}
+
+button:hover {
+  transform: translateX(800px);
+  /* cursor: pointer; */
+  transition: transform 2s ease-out 0.1s;
 }
